@@ -14,7 +14,7 @@ CLASS_COLORS = {
     
 }
 
-model = YOLO("yolov8n.pt") 
+model = YOLO("yolov8s.pt") 
 
 tracker = DeepSort(max_age=30)
 
